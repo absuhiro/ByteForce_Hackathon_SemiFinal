@@ -1,8 +1,22 @@
 Trust Intelligence Platform
 Team: Byte Force
+# Trust Intelligence Platform: Fake Review & Rating Manipulation Detection
 
-Problem: Detection of Fake Reviews and Rating Manipulation on Digital Platforms.
+Developed by Team **Byte Force** for the ByteForce Hackathon Semi-Finals. This platform targets the identification of fraudulent feedback and manipulative rating behaviors across digital ecosystems.
 
-<img width="395" height="411" alt="image" src="https://github.com/user-attachments/assets/d6281f7f-5d84-4f13-8b14-f5a062be418a" />
+##  Repository Structure
 
-<img width="358" height="582" alt="image" src="https://github.com/user-attachments/assets/8d65f723-79c4-426c-ac60-b07778bee679" />
+* **backend/**: Contains the core detection engine, API endpoints, and data processing models (NLP, behavioral analysis, network graphs).
+* **frontend/**: Holds the user interface and visualization dashboards for tracking trust metrics and flagged reviews.
+* **README.md**: Project documentation and architecture overview.
+
+##  Core Detection Methodologies
+
+The architecture relies on a multi-layered approach to evaluate review authenticity. One Of them is:
+
+ **Behavioral Metadata Analysis**
+   * Flags abnormal spikes in rating velocity.
+   * Tracks account creation-to-review time ratios.
+   * Monitors IP/device fingerprint clusters to stop Sybil attacks.
+
+ **For now it uses manual data to generate fake probability score.**
